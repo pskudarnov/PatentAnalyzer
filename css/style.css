@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+    color: #000000;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.content {
+    padding-top: 50px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.title {
+    padding-bottom: 80px;
+    text-align: center;
+    color: #0487cc;
+    font-size: 30px;
+}
+
+.enter {
+    width: 80%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    margin-left: 10%;
+}
+
+.entered_data_title {
+    padding: 12px;
+    color: white;
+    background-color: #0487cc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    text-align: center;
+    width: 250px;
+    margin: -55px 0 20px 32%;
+    margin-left: 38%;
+}
+
+.enter_line {
+    display: flex;
+    margin-left: 18%;
+}
+
+.enter_countries,
+.enter_indicators,
+.enter_year {
+    width: 30%;
+    border: 3px solid #0487cc;
+    padding: 15px;
+    margin: 0 2%;
+}
+
+.enter_line h4 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.enter_countries input,
+.enter_indicators input {
+    margin: 0 9% 5% 0;
+}
+
+.enter_year_by {
+    margin-top: 10%;
+}
+
+.enter_year select {
+    margin-left: 13%;
+}
+
+.entered_data_title_left_add p {
+    width: 40%;
+    background-color: #0487cc;
+    color: white;
+    margin: 36px 0 -50px 30%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+.schedule {
+    min-height: 500px;
+    background-color: white;
+    margin: 20% 0 80px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+.schedule_title {
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    background-color: #0487cc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+    text-align: center;
+    width: 250px;
+    margin: -15px 0 0 38%;
+}
+.success {
+    text-align: center;
+    padding-bottom: 8px;
+    color: #01e42e;
+}
+.danger {
+    text-align: center;
+    padding-bottom: 8px;
+    color: red;
+}
+.empty {
+    padding-bottom: 26px;
+}
